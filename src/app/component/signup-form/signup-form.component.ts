@@ -14,7 +14,7 @@ export class SignupFormComponent implements OnInit {
   url: string = 'https://demo-api.now.sh/users';
 
   get firstName() {
-    return this.registrationForm.get('firstName');
+    return this.registrationForm.get('firstName');    
   }
   get lastName() {
     return this.registrationForm.get('lastName');
@@ -34,7 +34,7 @@ export class SignupFormComponent implements OnInit {
     password: ['', [Validators.required, Validators.minLength(8), passwordValidator]]
   });
 
-  ngOnInit(): void{ }
+  ngOnInit(): void { }
 
   onSubmit() {
     let formData = {

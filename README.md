@@ -9,10 +9,11 @@ It includes :
 3. post API service call to submit the form data when user clicks on the submit button.
 4. Bootstrap css file for styling.
 
-Improvements :
+Improvements/Pending :
 
 1. A confirm password field can be added for security and proper validation of the password field.
 2. Error related to form fields in the html(shown in terminal)
+3. Test cases for the components
 
 ## Development server
 
