@@ -127,5 +127,8 @@
       }
     }
   },
-  "defaultProject": "sign-up-form"
+  "defaultProject": "sign-up-form",
+  "cli": {
+    "analytics": false
+  }
 }

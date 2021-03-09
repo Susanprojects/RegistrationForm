@@ -1,6 +1,18 @@
 # SignUpForm
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.0.5.
+This project creates a single page app with a Sign up/ Registration form so that users can register themselves and was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.0.5.
+
+It includes :
+
+1. Creation of form fields like first name, last name, email and password.
+2. Custom validations for each of the form fields.
+3. post API service call to submit the form data when user clicks on the submit button.
+4. Bootstrap css file for styling.
+
+Improvements :
+
+1. A confirm password field can be added for security and proper validation of the password field.
+2. Error related to form fields in the html(shown in terminal)
 
 ## Development server
 
